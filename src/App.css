@@ -24,6 +24,45 @@
   color: white;
 }
 
+
+.myButton {
+  background-color: white; 
+  width: 250pt;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 12px;
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.headbox {
+  background-color:  rgb(218, 234, 247);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.box {
+  width: 45%;
+  background-color: lightgrey;
+  font-family: arial;
+  margin-left: 30px;
+  height: 80%;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+
+.detailsbox {
+   background-color: white;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +75,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#transList {
+  text-align: left;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  width: 100%;
+  font-size: 8pt;
+}
+
+#transList td, #transList th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#transList tr:nth-child(even){background-color: #f2f2f2;}
+
+#transList tr:hover {background-color: #ddd;}
+
+#transList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rgb(95, 94, 161);
+  color: white;
+  font-size: 10pt;
+}
+
